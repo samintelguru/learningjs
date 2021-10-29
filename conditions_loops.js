@@ -25,7 +25,7 @@
 // salamu("Sammy");
 // salamu("Dennis");
 
-function ageCalculator(yob){    //yob is a parameter to allow input into the function
+/*function ageCalculator(yob){    //yob is a parameter to allow input into the function
     let currentTime = new Date();  //this is a function variable. it can only be accesses wihtin the function
     let currentYear = currentTime.getFullYear();   //this is a function variable. it can only be accesses wihtin the function
     let age = currentYear - yob;   //this is a function variable. it can only be accesses wihtin the function
@@ -43,3 +43,18 @@ console.log("Sam's age is "+umriSam);
 
 let umriCheryl = ageCalculator(1991);
 console.log("Cheryl's age is "+umriCheryl);
+*/
+
+function objectMaker(param1, param2, param3,param4){
+    let yourObject = {
+        prop1 : param1,
+        prop2 : param2,
+        prop3 : param3,
+        prop4 : param4
+    }
+    return yourObject;
+}
+
+
+let employee = objectMaker("Sammy","IT","A",2000 );
+console.log(employee);

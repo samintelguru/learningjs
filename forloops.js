@@ -18,4 +18,3 @@ for (let y = 2; y <=10; y++){
 
 //print numbers from 20 to 1
 //print odd numbers from 20 to 1 and in between 30 and 50
-
